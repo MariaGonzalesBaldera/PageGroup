@@ -1,0 +1,31 @@
+.NavLogo{
+  min-width: 100%;
+  min-height: 8rem;
+  background : #E8E1EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.NavLogo h4{
+  padding-bottom: 0;
+  margin-top: .05rem;
+  margin-bottom: .05rem;
+}
+
+.title-pri{
+  font-size: 2rem;
+}
+.img-logo{
+  margin-top: .5rem;
+  max-width: 6rem;
+  min-height: auto;
+}
+
+@media (max-width:992px){
+  .NavLogo{
+    position: absolute;
+    top: 5.5rem;
+  }
+}

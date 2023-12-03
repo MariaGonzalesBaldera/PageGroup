@@ -1,0 +1,16 @@
+.div-card{
+  border-top: .3rem solid #6d7e86; 
+  padding: 1rem; 
+  position: relative;
+}
+
+.div-card p{
+  margin: 0.1rem 0;
+
+}
+.p-title{
+  text-transform: uppercase;
+}
+.p-description{
+  font-size: .9rem;
+}

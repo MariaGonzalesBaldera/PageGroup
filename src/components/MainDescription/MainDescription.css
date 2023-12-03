@@ -1,0 +1,33 @@
+
+.main-texto{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 1rem;
+  position: relative;
+  text-align: start;
+}
+
+.div-text-principal,.div-text-secundary{
+  padding: 1rem;
+  background-color: #f5f2f8;
+
+}
+.div-presentacion-text{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width:992px){
+  .main-texto{
+    margin-top: 10.5rem;
+    display: block;
+    position: absolute;
+  }
+  .img-des{
+    max-width: 20rem;
+    max-height: auto;
+  }
+}
+@media (max-width:768px){
+}
